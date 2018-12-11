@@ -1,5 +1,5 @@
-FROM kirisaki/overflow:lts-12.20
+FROM kirisaki/overflow:lts-12.21
 MAINTAINER Akihito KIRISAKI
 
-RUN stack --resolver lts-12.21 setup
+RUN stack --resolver lts-12.22 setup
 RUN stack install hlint stylish-haskell
