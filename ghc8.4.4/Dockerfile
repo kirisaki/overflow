@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:9.6-slim
 MAINTAINER Akihito KIRISAKI
 
 RUN apt update && apt install curl -y
